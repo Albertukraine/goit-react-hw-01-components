@@ -2,15 +2,15 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        height: '10vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        fontSize: 18,
+        color: '#990099'
       }}
     >
-      React homework template
+      GO-IT-REACT-HW-01-COMPONENTS
     </div>
   );
 };
