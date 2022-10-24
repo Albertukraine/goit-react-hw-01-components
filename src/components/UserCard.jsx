@@ -1,4 +1,4 @@
-export const UserCard = props => {
+export const UserCard = (props) => {
   console.log('PROPS', props);
   const { avatar, username, tag, location, followers, views, likes } =
     props;
@@ -28,3 +28,6 @@ export const UserCard = props => {
     </div>
   );
 };
+
+
+
