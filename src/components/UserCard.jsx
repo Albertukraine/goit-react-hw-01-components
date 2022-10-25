@@ -1,7 +1,7 @@
-export const UserCard = (props) => {
-  console.log('PROPS', props);
-  const { avatar, username, tag, location, followers, views, likes } =
-    props;
+import PropTypes from 'prop-types';
+
+export const UserCard = props => {
+  const { avatar, username, tag, location, followers, views, likes } = props;
   return (
     <div className="profile">
       <div className="description">
@@ -29,5 +29,12 @@ export const UserCard = (props) => {
   );
 };
 
-
-
+UserCard.propTypes = {
+  avatar: PropTypes.string,
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+};

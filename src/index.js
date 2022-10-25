@@ -7,6 +7,8 @@ import { FriendList } from 'components/FriendList';
 import { Transactions } from 'components/Transactions';
 import user from './data/user.json';
 import data from './data/data.json';
+import friends from './data/friends';
+import transactions from './data/transactions.json';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,17 +23,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       views={user.stats.views}
       followers={user.stats.followers}
     />
-    <UserStatistics
 
-    />
+    <UserStatistics title="Upload stats" stats={data} />
 
-    <FriendList />
-    <Transactions />
+    <FriendList friends={friends} />
+    <Transactions items={transactions} />
   </React.StrictMode>
 );
-
-// UserCard.propTypes = {
-//   username: PropTypes.string,
-//   tag: Proptypes.string,
-//   location: Proptypes.string,
-// }
