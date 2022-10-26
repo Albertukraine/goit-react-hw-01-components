@@ -60,6 +60,11 @@
   border-radius: 3px;
   margin: 1px;
 }
+
+.userListItem:hover{
+  background-color: rgb(152, 152, 152);
+  transform: scale(110%);
+}
 .label {
   font-size: 12px;
   font-weight: 300;
