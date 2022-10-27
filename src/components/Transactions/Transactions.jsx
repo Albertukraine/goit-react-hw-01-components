@@ -27,5 +27,5 @@ export const Transactions = props => {
 };
 
 Transactions.propTypes = {
-  items: PropTypes.array
+  items: PropTypes.array,
 };

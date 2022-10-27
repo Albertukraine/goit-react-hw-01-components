@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './UserCard.module.css'
+import css from './UserCard.module.css';
 
 export const UserCard = props => {
   const { avatar, username, tag, location, followers, views, likes } = props;
