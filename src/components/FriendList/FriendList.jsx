@@ -4,7 +4,6 @@ import { FriendListItem } from 'components/FriendListItem/FriendListItem';
 
 export const FriendList = props => {
   const { friends } = props;
-  console.log(friends);
 
   return (
     <ul className={style.friendList}>

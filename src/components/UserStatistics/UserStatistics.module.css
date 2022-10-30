@@ -27,9 +27,8 @@
   height: 55px;
   margin: 1px;
   border-radius: 3px;
-  
 }
-.userStatItem:hover{
+.userStatItem:hover {
   background-color: rgb(152, 152, 152);
   transform: scale(110%);
 }
